@@ -4,9 +4,10 @@ function newItem(){
 //javascript
 //1. Adding a new item to the list of items:
    let li = document.createElement("li");
-   let inputValue = document.getElementById("input").value;
-   let text = document.createTextNode(inputValue);
-   li.appendChild(text);
+   // let inputValue = document.getElementById("input").value; javascript
+   let inputValue = $('#input').val();
+   // let text = document.createTextNode(inputValue); javascript
+   li.appendChild(inputValue);
 
    if (inputValue === '') {
      alert("You must write something!");

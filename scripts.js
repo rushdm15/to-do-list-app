@@ -11,6 +11,7 @@ function newItem(){
    if (inputValue === '') {
      alert("You must write something!");
    } else {
+     // let list = document.querySelector('#list'); javascript
      let list = $('#list');
      list.appendChild(li);
    }

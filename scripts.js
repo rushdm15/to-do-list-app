@@ -25,7 +25,6 @@ function newItem(){
  	li.on("dblclick",crossOut);
 
  //3(i). Adding the delete button "X":
-   let crossOutButton = $("crossOutButton");
  	crossOutButton.appendChild(document.createTextNode("X"));
    let crossOutButton = $("crossOutButton");  //jquery
  	deleteButton.append(document.createTextNode("X"));  //jquery

@@ -31,10 +31,10 @@ function newItem(){
  	deleteButton.append(document.createTextNode("X"));  //jquery
  	li.appendChild(crossOutButton);
 
- 	crossOutButton.on("click", deleteListItem);
- //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
-   function deleteListItem(){
- 		li.classList.add("delete")
+ // 	crossOutButton.on("click", deleteListItem);
+ // //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
+ //   function deleteListItem(){
+ // 		li.classList.add("delete")
  	}
  // 4. Reordering the items:
    $('#list').sortable();

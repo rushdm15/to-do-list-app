@@ -9,11 +9,11 @@ function newItem(){
    // let text = document.createTextNode(inputValue); javascript
    li.append(inputValue);  //jquery
 
+   let list = $('#list');
    if (inputValue === '') {
      alert("You must write something!");
    } else {
      // let list = document.querySelector('#list'); javascript
-     let list = $('#list');
      list.appendChild(li);
    }
 

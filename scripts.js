@@ -18,9 +18,10 @@ function newItem(){
    }
 
  //2. Crossing out an item from the list of items:
- 		li.classList.toggle("strike");
- 	}
+    li.on('click', function(){
     // function crossOut() {
+ 		li.toggleClass("strike");
+ 	});
 
  	li.on("dblclick",crossOut);
 

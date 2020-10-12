@@ -23,7 +23,7 @@ function newItem(){
  		li.toggleClass("strike");
  	});
 
- 	li.on("dblclick",crossOut);
+ 	// li.on("dblclick",crossOut); unneeded
 
  //3(i). Adding the delete button "X":
  	crossOutButton.appendChild(document.createTextNode("X"));

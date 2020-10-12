@@ -7,7 +7,7 @@ function newItem(){
    // let inputValue = document.getElementById("input").value; javascript
    let inputValue = $('#input').val();  //jquery
    // let text = document.createTextNode(inputValue); javascript
-   li.appendChild(inputValue);  //jquery
+   li.append(inputValue);  //jquery
 
    if (inputValue === '') {
      alert("You must write something!");

@@ -1,4 +1,4 @@
-
+$("#button").on("click", newItem);
 function newItem(){
 
 //javascript

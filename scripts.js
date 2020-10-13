@@ -33,7 +33,7 @@ function newItem(){
  	 crossOutButton.append(document.createTextNode("X"));  //jquery
  	 li.append(crossOutButton);
 
- // 	crossOutButton.on("click", deleteListItem);
+ 	// crossOutButton.on("click", deleteListItem);
  // //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
    function deleteListItem(){
  		li.classList.add("delete");
